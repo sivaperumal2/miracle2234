@@ -1,8 +1,5 @@
     
 
-# Kanged By © @ITZ_STAR_BOY
-# Owner Sambodhiraj
-# All rights reserved. © Alisha © Sweety © Sweety
 
 
 
@@ -16,10 +13,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "13098464"))
-API_HASH = getenv("API_HASH", "d57f367d43b812aea87fac24d7973356") 
+API_ID = int(getenv("API_ID", "10857228"))
+API_HASH = getenv("API_HASH", "5660668345:AAHM79urx8v8qypmAZ7tHO2AHmzKlp102Ho") 
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5298482200:AAEUHlDln6E2TZ3Izfx1PkJuS57ltfvZdKA") 
+BOT_TOKEN = getenv("BOT_TOKEN", "5298482200:AAGrAqrNe4QIlZACabQ8pFP71D_j8-HPZlg") 
 
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://moni2002:moni2002@cluster0.nzvmpxd.mongodb.net/?retryWrites=true&w=majority")
 
@@ -31,9 +28,8 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001608968821"))
-
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "miraclemusicplaybot") 
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001608968821")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "miracle music playbot") 
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1252143207").split())
@@ -47,7 +43,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Crackeralone/alonecrackerxmirachle",
+    "https://github.com/GOD-OF-LOVE/miracle223",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -104,7 +100,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION1","BQByWf8lupef_6LodK7mix7FhCBJ1QZ4gh5t-O_vwZFjaLlX_ndqRydY6dUDX2S79s6Yh8rbky1C_GdEfFobB_WsJBcgHlbfEuOjwn7CP-lS4XhsCyux1F_94MDlmLw6DIS-gjEDiCyUa3QWxp_9Wm3QeVHHZi9wEK8Z19vvZCFZIObGg9DTLMaxQgWBV1s4QDDltUmN5-b4qUbhdJVWzWWdosBSpMFCxFXTdzEcySPeB_AESKDN43dvU1z6pawLAMiF7XnyQ5xC3ZtZUYZktScwaoRq43h6NbEWuSXi8hip5125qvi15G6-beF49G9fmEnsRuVxiimQNtmabsnWoQ2_SqIwZwA") 
+STRING1 = getenv("STRING_SESSION1","BQBPHNHDYjIxAtd96MT6hLdGLDUhhrjZTZYeJxrOrrYsa6c-DT_CeNHfpOVefgPXWGkptxcxsDZIRLBj914zYcEiX3eixiCI3LKCRj02dLhg8BmRh_2uEJeaGVvGVwBDD2L8Kumci9xLUiHniqlEjOW8dP0FMKCAwxxCaqpB-Vw4i0Y3eIvGpjkiumaZjha657vOn7LAEjeRVZ4NR6snFqL4TM55AJKb0ItOLgxa7aHmXWui3CyBEEOj1nAUwUBbAR4qLCK9-nH_Y5NsjDgSdMeEY5p9UVx88iTrayJA8km-ffs_SbtrFhci87Vnct3Y88mEtcRILvB3KpzFWnO590H2SqIwZwA") 
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
