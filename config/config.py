@@ -29,7 +29,7 @@ SONG_DOWNLOAD_DURATION = int(
 )
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001608968821")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "miracle music playbot") 
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MIRACHLE MUSIC") 
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1252143207").split())
@@ -43,7 +43,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/GOD-OF-LOVE/miracle223",
+    "https://github.com/GOD-OF-LOVE/miracle2234",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
